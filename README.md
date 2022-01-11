@@ -69,3 +69,16 @@ before your start run the command please check your model parameter is right.
 we make the dataset by data_generate.py and its use slide window to crop the image
 
 we provide four different scale image dataset. " LL, L, M, S"  it's mean the different step for slide window.
+
+
+
+## Environment 
+
+to run our code you need to pip 
+
+```shell
+torch > 1.7.0 
+h5py
+astropy
+```
+
