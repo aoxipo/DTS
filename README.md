@@ -21,7 +21,7 @@ python hourglass_train.py
 
 In this part we set the learning rate is 1e-5 and set 100 and 500 epoch ,gained 0.132 loss and 0.11 loss(MSE) 
 
-
+our Parameter file see save/front/*.pkl
 
 #### Detr Train 
 
@@ -49,7 +49,8 @@ trainer = Train(
 
 You need at least 15GB RAM to Train dataset and 3GB to Val dataset . Our experiment use 3090(24GB)
 
-
+our Parameter file see the [Baidu Netdisk](https://pan.baidu.com/s/1hNIs7yTzrKtK5Nu4fqpXSg 
+) 提取码：ww4q
 
 #### Test
 
@@ -67,4 +68,4 @@ before your start run the command please check your model parameter is right.
 
 we make the dataset by data_generate.py and its use slide window to crop the image
 
-we provide four different scale image dataset. "LL, L, M, S"  it's mean the different step for slide window.
+we provide four different scale image dataset. " LL, L, M, S"  it's mean the different step for slide window.
